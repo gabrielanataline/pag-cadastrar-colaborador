@@ -3,7 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { CollaboratorService } from './../../services/collaborator.service';
 import { Collaborator } from './../../models/collaborator';
 import { NotificationService } from './../../services/notification.service';
-import { FormGroup, FormBuilder, Validators, NgForm } from '@angular/forms';
+import {  NgForm } from '@angular/forms';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
